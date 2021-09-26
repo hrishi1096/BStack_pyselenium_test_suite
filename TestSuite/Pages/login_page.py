@@ -17,7 +17,7 @@ class LoginPage():
         self.driver.find_element_by_xpath(self.password_textbox).send_keys(password)
 
     def click_sign_me_in(self):
-        self.driver.find_element_by_xpath(self.sign_me_in_button).click()
+        return self.driver.find_element_by_xpath(self.sign_me_in_button).click()
 
     def check_invalid_username_message(self):
         return self.driver.find_element_by_xpath(self.invalid_username_message).text

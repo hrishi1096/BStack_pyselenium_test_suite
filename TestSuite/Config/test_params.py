@@ -11,5 +11,5 @@ class TestParams():
     INVALID_EMAIL_MESSAGE = "Invalid Email"
 
 class BstackCredentials():
-    username = os.environ['BROWSERSTACK_USERNAME'];
-    accessKey = os.environ['BROWSERSTACK_ACCESS_KEY'];
+    username = os.environ['BROWSERSTACK_USERNAME']
+    accessKey = os.environ['BROWSERSTACK_ACCESS_KEY']
