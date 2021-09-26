@@ -1,45 +1,61 @@
 
 
 
+
 class Capabilities():
     caps = [{
-            'os_version': '10',
-            'os': 'Windows',
-            'browser': 'chrome',
-            'browser_version': 'latest',
-            'name': 'Parallel test 1',
-            'build': 'BStack_pyselenium_testbuild_002'
+                'bstack:options' : {
+                "os" : "Windows",
+                "osVersion" : "10",
+                "local" : "false",
+                "seleniumVersion" : "3.141.0",
+            },
+            "browserName" : "Chrome",
+            "browserVersion" : "latest",
+            "build": "BStack_pyselenium_testbuild_007"
         },
         {
-            'os_version': 'Big Sur',
-            'os': 'OS X',
-            'browser': 'Safari',
-            'browser_version': '14',
-            'name': 'Parallel test 2',
-            'build': 'BStack_pyselenium_testbuild_002'
+            'bstack:options': {
+                "os": "OS X",
+                "osVersion": "Big Sur",
+                "local": "false",
+                "seleniumVersion": "3.141.0",
+            },
+            "browserName": "Safari",
+            "browserVersion": "14.1",
+            "build": "BStack_pyselenium_testbuild_007"
         },
         {
-            'os_version': '10',
-            'os': 'Windows',
-            'browser': 'firefox',
-            'browser_version': 'latest-beta',
-            'name': 'Parallel test 3',
-            'build': 'BStack_pyselenium_testbuild_002'
+            'bstack:options': {
+                "os": "OS X",
+                "osVersion": "Big Sur",
+                "local": "false",
+                "seleniumVersion": "3.141.0",
+            },
+            "browserName": "Edge",
+            "browserVersion": "latest",
+            "build": "BStack_pyselenium_testbuild_007"
         },
         {
-            "os_version": "Catalina",
-            "os": "OS X",
-            "browser": "Chrome",
-            "browser_version": "latest",
-            'name': 'Parallel test 4',
-            'build': 'BStack_pyselenium_testbuild_002'
+            'bstack:options': {
+                "os": "Windows",
+                "osVersion": "10",
+                "local": "false",
+                "seleniumVersion": "3.14.0",
+            },
+            "browserName": "IE",
+            "browserVersion": "11.0",
+            "build": "BStack_pyselenium_testbuild_007"
         },
         {
-            "os_version": "8.1",
-            "os": "Windows",
-            "browser": "Edge",
-            "browser_version": "latest",
-            'name': 'Parallel test 5',
-            'build': 'BStack_pyselenium_testbuild_002'
+            'bstack:options': {
+                "os": "Windows",
+                "osVersion": "10",
+                "local": "false",
+                "seleniumVersion": "3.14.0",
+            },
+            "browserName": "Firefox",
+            "browserVersion": "latest",
+            "build": "BStack_pyselenium_testbuild_007"
         }
     ]
