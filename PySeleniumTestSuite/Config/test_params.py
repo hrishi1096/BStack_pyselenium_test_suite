@@ -1,5 +1,7 @@
 import os
 
+# All the parameters to be used by the tests and the Browserstack username
+# and access key
 
 class TestParams():
     WEBDRIVER_IMPLICIT_WAIT_TIME = 10

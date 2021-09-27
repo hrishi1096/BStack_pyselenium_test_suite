@@ -14,7 +14,8 @@ class Capabilities():
             },
             "browserName" : "Chrome",
             "browserVersion" : "latest",
-            "build": "BStack_pyselenium_testbuild_012"
+            "name" : "Win10_chrome_latest_parallel_test",
+            "build": "BStack_pyselenium_testbuild_015"
         },
         {
             'bstack:options': {
@@ -25,7 +26,8 @@ class Capabilities():
             },
             "browserName": "Edge",
             "browserVersion": "latest",
-            "build": "BStack_pyselenium_testbuild_012"
+            "name": "Win10_edge_latest_parallel_test",
+            "build": "BStack_pyselenium_testbuild_015"
         },
         {
             'bstack:options': {
@@ -36,7 +38,8 @@ class Capabilities():
             },
             "browserName": "Chrome",
             "browserVersion": "90.0",
-            "build": "BStack_pyselenium_testbuild_012"
+            "name": "Win8.1_chrome_90.0_parallel_test",
+            "build": "BStack_pyselenium_testbuild_015"
         },
         {
             'bstack:options': {
@@ -47,7 +50,8 @@ class Capabilities():
             },
             "browserName": "Firefox",
             "browserVersion": "91.0",
-            "build": "BStack_pyselenium_testbuild_012"
+            "name": "Win8.1_firefox_91.0_parallel_test",
+            "build": "BStack_pyselenium_testbuild_015"
         },
         {
             'bstack:options': {
@@ -58,6 +62,7 @@ class Capabilities():
             },
             "browserName": "Firefox",
             "browserVersion": "latest",
-            "build": "BStack_pyselenium_testbuild_012"
+            "name": "Win10_firefox_latest_parallel_test",
+            "build": "BStack_pyselenium_testbuild_015"
         }
     ]

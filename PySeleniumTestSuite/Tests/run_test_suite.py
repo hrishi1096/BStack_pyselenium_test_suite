@@ -5,7 +5,6 @@ sys.path.append(os.path.join(os.path.dirname(__file__), ".."))
 
 from threading import Thread
 from selenium import webdriver
-from selenium.common.exceptions import NoSuchElementException
 from Pages.login_page import LoginPage
 from Pages.home_page import HomePage
 from Pages.main_page import MainPage
@@ -13,14 +12,6 @@ from Config.test_params import TestParams as tp
 from Config.test_params import BstackCredentials as bstack
 from Config.capabilities import Capabilities
 
-
-
-def accept_all_cookies(driver):
-    cookie_notification_accept_btn_xpath = '//*[@id="accept-cookie-notification"]'
-    try:
-        driver.find_element_by_xpath(cookie_notification_accept_btn_xpath).click()
-    except NoSuchElementException:
-        pass
 
 
 def setup(desired_cap):
@@ -40,9 +31,9 @@ def tearDown(driver):
 def founder_check_test(driver):
     ret = 0
     driver.get(tp.MAIN_PAGE_URL)
-    accept_all_cookies(driver)
 
     main_page = MainPage(driver)
+    main_page.accept_all_cookies()
     main_page.click_about_us_link()
     if main_page.check_founders(tp.BROWSERSTACK_FOUNDERS):
         print("founder check passed")

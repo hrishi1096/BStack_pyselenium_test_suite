@@ -6,6 +6,7 @@
 class Locators():
     # Locators for main page
     about_us_xpath = '//*[@id="menu-item-25037"]/a/span'
+    cookie_notification_accept_btn_xpath = '//*[@id="accept-cookie-notification"]'
 
     # Locators for login page
     email_textbox_xpath             = '//*[@id="user_email_login"]'
