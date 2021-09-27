@@ -17,3 +17,4 @@ class TestParams():
 class BstackCredentials():
     username = os.environ['BROWSERSTACK_USERNAME']
     accessKey = os.environ['BROWSERSTACK_ACCESS_KEY']
+    build_name = os.environ['BROWSERSTACK_BUILD_NAME']

@@ -18,15 +18,16 @@ The third test enters invalid email id and check if the error message shown on t
 is correct or not.
 
 
-# Installing the required python packages
+# Installing the required dependencies
 Simply run the following command
 ```
 pip install -r requirements.txt
 
 ```
 
-It is also important to set the environment variables `BROWSERSTACK_USERNAME` and
-`BROWSERSTACK_ACCESS_KEY` with the correct values before running the test suite.
+It is also important to set the environment variables `BROWSERSTACK_USERNAME`,
+`BROWSERSTACK_ACCESS_KEY` and `BROWSERSTACK_BUILD_NAME` with the correct values
+before running the test suite.
 
 
 # How to run

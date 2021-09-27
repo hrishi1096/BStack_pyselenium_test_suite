@@ -1,8 +1,6 @@
 browserstack-local==1.2.3
 click==8.0.1
 element==0.1
-fixtures==3.0.0
 html-testRunner==1.2.1
 page-objects==1.1.0
 selenium==3.141.0
-urllib3==1.26.4
