@@ -4,7 +4,7 @@
 
 class Capabilities():
     caps = [{
-                'bstack:options' : {
+            'bstack:options' : {
                 "os" : "Windows",
                 "osVersion" : "10",
                 "local" : "false",
@@ -12,40 +12,40 @@ class Capabilities():
             },
             "browserName" : "Chrome",
             "browserVersion" : "latest",
-            "build": "BStack_pyselenium_testbuild_007"
-        },
-        {
-            'bstack:options': {
-                "os": "OS X",
-                "osVersion": "Big Sur",
-                "local": "false",
-                "seleniumVersion": "3.141.0",
-            },
-            "browserName": "Safari",
-            "browserVersion": "14.1",
-            "build": "BStack_pyselenium_testbuild_007"
-        },
-        {
-            'bstack:options': {
-                "os": "OS X",
-                "osVersion": "Big Sur",
-                "local": "false",
-                "seleniumVersion": "3.141.0",
-            },
-            "browserName": "Edge",
-            "browserVersion": "latest",
-            "build": "BStack_pyselenium_testbuild_007"
+            "build": "BStack_pyselenium_testbuild_011"
         },
         {
             'bstack:options': {
                 "os": "Windows",
                 "osVersion": "10",
                 "local": "false",
-                "seleniumVersion": "3.14.0",
+                "seleniumVersion": "3.5.2",
             },
-            "browserName": "IE",
-            "browserVersion": "11.0",
-            "build": "BStack_pyselenium_testbuild_007"
+            "browserName": "Edge",
+            "browserVersion": "latest",
+            "build": "BStack_pyselenium_testbuild_011"
+        },
+        {
+            'bstack:options': {
+                "os": "Windows",
+                "osVersion": "8.1",
+                "local": "false",
+                "seleniumVersion": "3.141.0",
+            },
+            "browserName": "Chrome",
+            "browserVersion": "90.0",
+            "build": "BStack_pyselenium_testbuild_011"
+        },
+        {
+            'bstack:options': {
+                "os": "Windows",
+                "osVersion": "8.1",
+                "local": "false",
+                "seleniumVersion": "3.10.0",
+            },
+            "browserName": "Firefox",
+            "browserVersion": "91.0",
+            "build": "BStack_pyselenium_testbuild_011"
         },
         {
             'bstack:options': {
@@ -56,6 +56,6 @@ class Capabilities():
             },
             "browserName": "Firefox",
             "browserVersion": "latest",
-            "build": "BStack_pyselenium_testbuild_007"
+            "build": "BStack_pyselenium_testbuild_011"
         }
     ]

@@ -17,3 +17,4 @@ class Locators():
     account_menu_xpath = '//*[@id="account-menu-toggle"]'
     logout_link_xpath  = '//*[@id="sign_out_link"]'
 
+
