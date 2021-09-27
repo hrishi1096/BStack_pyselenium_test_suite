@@ -1,7 +1,7 @@
 # BStack_pyselenium_test_suite
 This is a Selenium Test Suite written in python to be used on Browserstack Automate.
 
-It is very basic a involves three tests on three diferent pages in browserstack namely
+It is very basic and contains three tests on three diferent pages in browserstack namely
 
 Main page - "https://www.browserstack.com"
 
@@ -39,7 +39,7 @@ python PySeleniumTestSuite/Tests/run_test_suite.py
 ```
 
 It runs the three aforementioned tests on 5 different browser/platform combinations in
-paraller on Browserstack automate
+parallel on Browserstack automate
 
 Which browsers are being used can be seen in the
 `PySeleniumTestSuite/Config/capabilities.py` file)
