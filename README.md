@@ -2,9 +2,12 @@
 This is a Selenium Test Suite written in python to be used on Browserstack Automate.
 
 It is very basic a involves three tests on three diferent pages in browserstack namely
+
 Main page - "https://www.browserstack.com"
-Login page - "https://www.browserstack.com"
-Home page - "https://www.browserstack.com/users/sign_in"
+
+Login page - "https://www.browserstack.com/users/sign_in"
+
+Home page - This is the page after a successful sign in
 
 The first test visits the main page and go to the about us section and checks the names of
 Browserstack founders.
