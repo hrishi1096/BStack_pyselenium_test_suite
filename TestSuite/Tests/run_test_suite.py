@@ -11,7 +11,7 @@ from Pages.home_page import HomePage
 from Pages.main_page import MainPage
 from Config.test_params import TestParams as tp
 from Config.test_params import BstackCredentials as bstack
-from capabilities import Capabilities
+from Config.capabilities import Capabilities
 
 
 

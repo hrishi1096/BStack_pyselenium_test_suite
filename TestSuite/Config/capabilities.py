@@ -1,5 +1,7 @@
 
 
+# This tells browserstack which browser on which platform
+# to use to run the test suite
 
 
 class Capabilities():
@@ -12,7 +14,7 @@ class Capabilities():
             },
             "browserName" : "Chrome",
             "browserVersion" : "latest",
-            "build": "BStack_pyselenium_testbuild_011"
+            "build": "BStack_pyselenium_testbuild_012"
         },
         {
             'bstack:options': {
@@ -23,7 +25,7 @@ class Capabilities():
             },
             "browserName": "Edge",
             "browserVersion": "latest",
-            "build": "BStack_pyselenium_testbuild_011"
+            "build": "BStack_pyselenium_testbuild_012"
         },
         {
             'bstack:options': {
@@ -34,7 +36,7 @@ class Capabilities():
             },
             "browserName": "Chrome",
             "browserVersion": "90.0",
-            "build": "BStack_pyselenium_testbuild_011"
+            "build": "BStack_pyselenium_testbuild_012"
         },
         {
             'bstack:options': {
@@ -45,7 +47,7 @@ class Capabilities():
             },
             "browserName": "Firefox",
             "browserVersion": "91.0",
-            "build": "BStack_pyselenium_testbuild_011"
+            "build": "BStack_pyselenium_testbuild_012"
         },
         {
             'bstack:options': {
@@ -56,6 +58,6 @@ class Capabilities():
             },
             "browserName": "Firefox",
             "browserVersion": "latest",
-            "build": "BStack_pyselenium_testbuild_011"
+            "build": "BStack_pyselenium_testbuild_012"
         }
     ]
